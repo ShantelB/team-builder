@@ -28,3 +28,26 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 43%;
+  margin-right: 43%;
+  padding-bottom: 5%;
+}
+
+label {
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+input {
+  display: flex;
+  text-align: center;
+}
+
+button {
+  margin-top: 10%;
+}

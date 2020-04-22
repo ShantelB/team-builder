@@ -22,7 +22,7 @@ const submitMember = event => {
 
     return (
       <div className="Member-List">
-      <form onSubmit={submitMember}>
+      <form className="form" onSubmit={submitMember}>
 
           <label htmlFor="member">Name</label>
           <input id="member" type="text" name="name" onChange={changes} placeholder="Name" value= {memberName.name} />
