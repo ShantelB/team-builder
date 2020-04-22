@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../src/image/Cliffs3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.cards {
+  background-image: url(../src/image/Cliffs2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

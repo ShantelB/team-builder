@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './App.css';
-import Member from './Members';
 import Form from './Form';
 
 
@@ -32,8 +31,8 @@ const addNewMember = member => {
     <div className="App">
 
       <h1>Coding Members</h1>
-      <Member members={members} />
-      <Form addNewMember={addNewMember} />
+     
+      <Form addNewMember={addNewMember} members={members}/>
     </div>
   );
 }
